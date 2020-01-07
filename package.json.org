@@ -1,0 +1,25 @@
+{
+  "name": "soosanint.github.io",
+  "version": "1.0.0",
+  "description": "by jekyll",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "jekyll build",
+    "deploy": "gulp deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soosanint/soosanint.github.io.git"
+  },
+  "author": "Chul-Woong Yang <ycw@soosan.co.kr> (ycw@soosan.co.kr)",
+  "license": "Apache",
+  "bugs": {
+    "url": "https://github.com/soosanint/soosanint.github.io/issues"
+  },
+  "homepage": "https://github.com/soosanint/soosanint.github.io#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-gh-pages": "^0.5.4"
+  }
+}

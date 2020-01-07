@@ -19,6 +19,7 @@
         $ git push
 
 ## Testing
+1. 커밋 전에 로컬 서버에서 글이 잘 써졌는지 확인하는 것이 좋습니다.
 
         $ jekyll serve
 

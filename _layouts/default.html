@@ -11,6 +11,15 @@
   <meta name="description" content="{{ page_description | strip }}">
   <link rel="canonical" href="{{ site.home_url}}{{ page.url }}">
 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-6183151-16"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-6183151-16');
+  </script>
   <!-- OpenGraph meta tags -->
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}수산아이앤티 기술 블로그{% endif %}">
   <meta property="og:url" content="{{ site.home_url }}{{ page.url }}">
